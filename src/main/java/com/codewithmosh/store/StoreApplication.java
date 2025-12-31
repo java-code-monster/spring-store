@@ -13,7 +13,9 @@ import org.springframework.context.ConfigurableApplicationContext;
 public class StoreApplication {
 
     public static void main(String[] args) {
-//        ApplicationContext context = SpringApplication.run(StoreApplication.class, args);
+   ApplicationContext context = SpringApplication.run(StoreApplication.class, args);
+
+        System.out.println("Hello Raymond");
         var user = User.builder()
                 .name("John")
                 .password("password")
