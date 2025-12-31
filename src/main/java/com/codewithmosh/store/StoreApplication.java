@@ -16,19 +16,19 @@ public class StoreApplication {
    ApplicationContext context = SpringApplication.run(StoreApplication.class, args);
 
         System.out.println("Hello Raymond");
-        var user = User.builder()
-                .name("John")
-                .password("password")
-                .email("john@codewithmosh.com")
-                .build();
+//        var user = User.builder()
+//                .name("John")
+//                .password("password")
+//                .email("john@codewithmosh.com")
+//                .build();
 
-        var profile = Profile.builder()
-                        .bio("bio")
-                        .build();
+//        var profile = Profile.builder()
+//                        .bio("bio")
+//                        .build();
+//
+//        user.setProfile(profile);
 
-        user.setProfile(profile);
-
-        System.out.println(user);
+//        System.out.println(user);
     }
 
 }
